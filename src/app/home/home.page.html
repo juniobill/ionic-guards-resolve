@@ -1,14 +1,7 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+
+<ion-content padding>
+  <ion-button expand="block" (click)="navigateToPokemon(1)" routerDirection="forward">Pokemon 1</ion-button>
+  <ion-button expand="block" (click)="navigateToPokemon(100)" routerDirection="forward">Pokemon 100</ion-button>
+  <ion-button expand="block" (click)="navigateToPokemon(150)" routerDirection="forward">Pokemon 150</ion-button>
 </ion-content>

@@ -1,0 +1,46 @@
+.headersawee {
+    --background: #00548b;
+    --ion-text-color: #ffffff;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  ion-content {
+    --ion-background-color: #00548b;
+    --ion-text-color: #ffffff;
+  }
+
+  ion-button,
+  ion-page,
+  ion-item,
+  ion-label {
+    --ion-color-primary: #e7e7e7;
+    --ion-color-primary-rgb: 231, 231, 231;
+    --ion-color-primary-contrast: #000000;
+    --ion-color-primary-contrast-rgb: 0, 0, 0;
+    --ion-color-primary-shade: #cbcbcb;
+    --ion-color-primary-tint: #e9e9e9;
+  }
+
+  ion-input {
+    --placeholder-color: #c2dcee;
+  }
+
+  ion-item {
+    --border-color: #e7e7e7;
+  }
+
+  ion-label {
+    --color: #ffffff;
+  }
+
+  ion-item {
+    --color: #ffffff;
+    --color-focused: #ffffff;
+    --highlight-color-focused: #ffffff;
+    --border-color: #e9e9e9; // default underline color
+    --highlight-color-invalid: red; // invalid underline color
+    --highlight-color-valid: #e7e7e7; // valid underline color
+  }
