@@ -13,7 +13,7 @@ export class DetailsPage implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
+    console.log(this.route.snapshot.data.pokemon)
     this.pokemon = this.route.snapshot.data.pokemon;
   }
-
 }

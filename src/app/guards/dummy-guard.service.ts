@@ -29,5 +29,4 @@ export class DummyGuardService implements CanActivate {
     this.router.navigate(['home']);
     return false;
   }
-
 }
